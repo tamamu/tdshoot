@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Shooting Tower Defence" package="com.sample.shootd" version="1.0.0" company="iris" />
+	<app main="Main" path="Export" file="Shootd" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" />
+	
+</project>

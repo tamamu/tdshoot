@@ -1,0 +1,5 @@
+Export/
+Assets/
+*.sublime-project
+*.sublime-workspace
+*.hxproj
