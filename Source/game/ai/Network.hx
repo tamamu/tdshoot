@@ -46,18 +46,9 @@ class Network {
 		}
 	}
 
-	public function train(inputs: Array<Float>, corrects: Array<Float>, rep: Int){
-		for(cnt in 0...rep){
-			var result = run(inputs);
-			var diff = new Array<Float>();
-			var error = 0.0;
-			for(i in 0...inputs.length){
-				diff[i] = result[i] - corrects[i];
-				error += Math.pow(diff[i], 2.0);
-			}
-			trace(cnt, error);
-			backward(inputs, diff);
-		}
+	public function train(inputs: Array<Float>, corrects: Array<Float>, iter: Int, eta: Float){
+		//
+		//
 	}
 }
 

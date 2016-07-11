@@ -12,7 +12,7 @@ class Main extends Sprite {
 		super ();
 		
 		var nn = new Network(2, 4, 2);
-		nn.train([0.3, 0.5], [1, -1], 10000);
+		//nn.train([0.3, 0.5], [1, -1], 10000);
 		
 		
 	}
