@@ -22,7 +22,7 @@ class Network {
 			return 1;
 		}
 	}
-
+/*
 	public function backward(inputs: Array<Float>, diff: Array<Float>){
 		for(i in 0...diff.length){
 			var ep = new Array<Float>();
@@ -49,7 +49,22 @@ class Network {
 	public function train(inputs: Array<Float>, corrects: Array<Float>, iter: Int, eta: Float){
 		//
 		//
+
 	}
+
+	public function backward(inputs: Array<Float>, collects: Array<Float>, n: Int){
+		var result = run(inputs);
+		var errors3 = new Array<Float>();
+		for(i in 0...errors.length){
+			errors3[i] = result[i] - collects[i];
+		}
+
+		var weights2 = output.neurons[n].weights;
+		var errors2 = new Array<Float>();
+	
+
+	}
+	*/
 }
 
 class Layer {
